@@ -1,0 +1,255 @@
+ body{
+    padding:0;
+    margin: 0;
+    background-color:antiquewhite  
+ }
+ html{
+    scroll-behavior: smooth;
+ }
+ .navbar{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgb(35 24 24);
+    transition: border 0.3s ease ;
+    border: 2px solid transparent;
+
+
+}
+.navbar:hover{
+    border: 3px solid white;
+}
+.Logo{
+    font-weight: bold;
+    font-size: 40px;
+    color: rgb(146, 144, 144);
+    text-decoration: none;
+    padding: 100px;
+}
+
+
+.links{
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.links a{
+    color: rgb(223, 207, 207); 
+    font-size: 25px;
+    text-decoration: none;
+    
+}
+.links a:hover{
+    background-color: rgb(96, 90, 97) ;
+    border-radius:  30%;
+}
+.homee{
+    box-sizing: border-box;
+    background-color: rgb(55 34 34);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+.homee img{
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     flex-wrap: wrap;
+    max-width: 50%;
+    height: auto;
+    padding-left: 100px;
+}
+.homee h1{
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
+}
+.homee p{
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.button{
+ display: flex;
+ gap: 40px;
+ justify-content:  center;
+ flex-wrap: wrap;
+ margin-top: 10px;
+ 
+
+}
+.btn1
+{
+    padding: 10px 20px ;
+    background-color: rgb(143, 99, 99);
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn2
+{
+    padding: 10px 20px ;
+    background-color: rgb(143, 99, 99);
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn1:hover{
+    background-color: rgb(206, 119, 119);
+}
+.btn2:hover{
+    background-color: rgb(206, 119, 119);
+}
+ .experience{
+padding-top: 0px;
+     box-sizing: border-box;
+    background-color: rgb(55 34 34);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+  }
+  .experience h1{
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.icon{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+.projects{
+    box-sizing: border-box;
+    background-color: rgb(55 34 34);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.projects h1{
+     color: white;
+    font-size: 35px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first-project
+{
+    border: 5px solid rgba(0, 0, 0, 0.2);
+    border-radius: 20%;
+    padding: 10px;
+    font-display: inline-block;
+    color: white;  }
+ 
+    .date{
+    direction: rtl;
+
+    }
+    .secound-project{
+         border: 5px solid rgba(0, 0, 0, 0.2);
+    border-radius: 20%;
+    padding: 10px;
+    font-display: inline-block;
+    color: white; 
+
+    }
+    .therad-project{
+           border: 5px solid rgba(0, 0, 0, 0.2);
+    border-radius: 20%;
+    padding: 10px;
+    font-display: inline-block;
+    color: white; 
+
+
+    }
+    .contact{
+     box-sizing: border-box;
+    background-color:rgb(35 24 24);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-display: inline-block;
+    font-style: italic;
+    font-size: larger;
+    color: white;
+    }
+    .contact h1{
+        color: white;
+         display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: normal;
+
+    }
+  
+    @media(max-width:768px){
+        .navbar{
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+      @media(max-width:768px){
+        .links{
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+  @media(max-width:768px){
+        .homee h1{
+            font-size: 2rem;
+        }
+        .homee p{
+            font-size: 1rem;
+        }
+        .homee .button{ font-size: 0.9;
+            padding: 8px 16px;
+
+
+        }
+    }
+@media(max-width:480px){
+    .homee h1{
+        font-size: 1.5rem;
+
+    }
+    .homee p{
+        font-size: 0.9rem;
+    }
+}
+@media (max-width:786)
+{
+    .experience .icon{
+         flex-direction: column;
+            align-items: center;
+        }
+
+    
+}
+    
+
+        
+    
+        
+    
+
+        
+    
